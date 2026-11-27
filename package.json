@@ -1,0 +1,10 @@
+{
+  "name": "dairy-farm-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "node scripts/check-inline-js.cjs",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  }
+}
